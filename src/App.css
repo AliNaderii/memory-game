@@ -16,3 +16,10 @@ button:hover {
   background: #c23866;
   color: #fff;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 10px;
+  margin: 10px 0;
+}
